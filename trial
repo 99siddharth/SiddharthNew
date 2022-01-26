@@ -8,4 +8,5 @@ int main()
     Tincome= income+dAllow+rAllow;
     printf("\nThe gross salary is: %f",Tincome);
     return 1;
+    getch();
 }
