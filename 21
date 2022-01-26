@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    float len,feet,cm,inch;
+    printf("Enter the length: ");
+    scanf("%f",&len);
+    cm=len*100000;
+    feet=len*3280.840;
+    inch= len*39370.07874;
+    printf("\nLen in cm: %f", cm);
+    printf("\nLen in feet: %f", feet);
+    printf("\nLen in inches: %f", inch);
+    return 0;
+}
